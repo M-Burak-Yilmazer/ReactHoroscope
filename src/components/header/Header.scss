@@ -24,3 +24,10 @@ header {
     }
   }
 }
+
+@include media-lg{
+    .links a{
+        display:block;
+        margin:1rem;
+    }
+}
