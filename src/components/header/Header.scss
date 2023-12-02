@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+@import "../scss/mixin";
+
+header {
+  font-family: "Rubik Distressed", cursive;
+  background-color: #cd890c;
+  padding: 0 1rem;
+  @include flex(rows, center, space-between, 1rem);
+   .imgs img {
+    width:80px;
+  }
+  .links {
+    a {
+        margin-right: 1rem;
+      text-decoration: none;
+      color:black;
+      transition: all .7s;
+      &:hover{
+        background-color: black;
+        color:#cd890c;
+        padding:0.5rem 0.5rem;
+        border-radius: 10px;
+      }
+    }
+  }
+}
